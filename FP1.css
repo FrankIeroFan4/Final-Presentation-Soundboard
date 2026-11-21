@@ -4,10 +4,7 @@ div.position {
   position: relative;
 }
     
-.header {
-    text-align: center;
-    flex: 1;
-}
+
 
 * { box-sizing: border-box; }
 body { margin: 24px; font-family: Arial, sans-serif; color: #333;}
@@ -16,3 +13,13 @@ button { padding: 102px 106px; border: 1px solid #888; background: #fc0404; font
 .controls { display: flex; flex-wrap: wrap; gap: 50px; }
 
 #status { margin-top: 24px; }
+
+h1 {
+  font-family: "Silkscreen", sans-serif;
+    text-align: center;
+    flex: 1;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 900;
+}
+
