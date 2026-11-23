@@ -33,7 +33,7 @@ div.position {
     background: #0f85df; 
     font: inherit; 
     cursor: pointer; 
-    font-size: 100px;
+    font-size: 50px;
   }
 
   .controls 
@@ -55,7 +55,7 @@ div.position {
     flex: 1;
     font-weight: 700;
     font-style: normal;
-    font-size: 230px;
+    font-size: 100px;
     color:rgb(255, 13, 0);
     -webkit-text-stroke: 1px #000000
 
