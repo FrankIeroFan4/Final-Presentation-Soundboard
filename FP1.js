@@ -31,6 +31,43 @@ else { aminor.play()}
     //sound.play(); // Start or resume from the current position.
 });
 
+$("#play-button3").click(function () {
+
+    if(DKSCREAM.duration > 0 && !DKSCREAM.paused){
+        DKSCREAM.pause()
+        }
+else { DKSCREAM.play()}
+
+ });
+
+$("#play-button4").click(function () {
+
+    if(spongebob.duration > 0 && !spongebob.paused){
+        spongebob.pause()
+        }
+else { spongebob.play()}
+
+ });
+
+ $("#play-button5").click(function () {
+
+    if(heaven.duration > 0 && !heaven.paused){
+        heaven.pause()
+        }
+else { heaven.play()}
+
+    });
+
+$("#play-button6").click(function () {
+
+    if(alarm.duration > 0 && !alarm.paused){
+        alarm.pause()
+        }
+else { alarm.play()}
+
+});
+
+
 
 // These events report the audio's state, not just a button click.
 $("#sound").on("playing", function () {
