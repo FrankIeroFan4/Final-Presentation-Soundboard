@@ -4,9 +4,10 @@ body {
 }
 
 * { box-sizing: border-box; }
-body { margin: 24px; font-family: Arial, sans-serif; color: #333; background: rgb(238, 255, 6); }
+body { margin: 24px; font-family: Arial, pixel-perfect; color: #333; background: rgb(238, 255, 6); }
 p { line-height: 2.5; }
-button { padding: 102px 106px; border: 1px solid #888; background: #fc0404; font: inherit; cursor: pointer; }
-.controls { display: flex; flex-wrap: wrap; gap: 50px; }
+button { padding: 20px 20px; border: 1px solid #888; background: #0f85df; font: inherit; cursor: pointer; }
+.controls { display: flex; flex-wrap: wrap; gap: 70px; }
 
 #status { margin-top: 24px; }
+    
