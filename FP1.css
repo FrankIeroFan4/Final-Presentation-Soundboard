@@ -14,26 +14,42 @@ div.position {
 }
 
 
-
-
 * { box-sizing: border-box; }
 
-
+ 
+ 
+  body { 
+    margin: 0px; 
+    padding: 0px; 
+    font-family: Arial, sans-serif; 
+    color: #333;
+  
+  };
 
   head
    { margin: 24px; font-family: Arial, pixel-perfect; color: #333; background: rgb(238, 255, 6); }
 
- 
-
-  body { margin: 0px; padding: 0px; font-family: Arial, sans-serif; color: #333;} >>>>>>> 74bc639c47180a0c3f0f1079399a7fc506e86601
+  body { margin: 0px; padding: 0px; font-family: Arial, sans-serif; color: #333;}
   p { line-height: 2.5; }
-  button { padding: 20px 20px; border: 1px solid #888; background: #0f85df; font: inherit; cursor: pointer; }
-  .controls { display: flex; flex-wrap: wrap; gap: 70px; }
+  button 
+  { padding: 200px 200px; 
+    border: 1px solid #888; 
+    background: #0f85df; 
+    font: inherit; 
+    cursor: pointer; 
+    font-size: 50px;
+  }
 
-  #status { margin-top: 24px; }
- 
-    
+  .controls
+  { display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+  }
 
+  #status
+  { margin-top: 24px;
+
+   }
 
   h1 {
   font-family: "Silkscreen", sans-serif;
@@ -41,7 +57,7 @@ div.position {
     flex: 1;
     font-weight: 700;
     font-style: normal;
-    font-size: 900;
+    font-size: 100px;
     color:rgb(255, 13, 0);
     -webkit-text-stroke: 1px #000000
 
