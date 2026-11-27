@@ -1,8 +1,10 @@
 div.position {
   background-image: url("images/newbackground.png");
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  
+  
   min-height: 100vh;
   width: 100%;
   border: 10px solid #000000;
@@ -32,18 +34,23 @@ div.position {
   body { margin: 0px; padding: 0px; font-family: Arial, sans-serif; color: #333;}
   p { line-height: 2.5; }
   button 
-  { padding: 200px 200px; 
-    border: 1px solid #888; 
-    background: #0f85df; 
+  { padding: 100px 100px; 
+    border: 2px solid #e0c932; 
+    background: #0ae3e7; 
     font: inherit; 
     cursor: pointer; 
-    font-size: 50px;
+    font-size: 30px;
   }
 
-  .controls
-  { display: flex;
-    flex-wrap: wrap;
-    gap: 70px;
+  div.controls
+  {   
+     position: relative;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 70px;
+
+    
+   
   }
 
   #status
