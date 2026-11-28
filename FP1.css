@@ -35,13 +35,13 @@ div.position {
   p { line-height: 2.5; }
   button 
   { padding: 100px 100px; 
-<<<<<<< HEAD
+ 
     border: 1px solid #888; 
     background: #0f85df; 
-=======
+
     border: 2px solid #e0c932; 
     background: #0ae3e7; 
->>>>>>> b5ee6e3e5f630880b5780e53e186a57330c8e22a
+
     font: inherit; 
     cursor: pointer; 
     font-size: 30px;
